@@ -84,11 +84,6 @@
 		    <version>4.2.5.RELEASE</version>
 		</dependency>
 		<dependency>
-			<groupId>commons-fileupload</groupId>
-			<artifactId>commons-fileupload</artifactId>
-			<version>1.3.1</version>
-		</dependency>
-		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
@@ -211,62 +206,6 @@
 		    <artifactId>httpmime</artifactId>
 		    <version>4.5</version>
 		</dependency>
-		<dependency>
-		    <groupId>com.alibaba</groupId>
-		    <artifactId>fastjson</artifactId>
-		    <version>1.2.47</version>
-		</dependency>
-		<!-- 角色数据回显使用jar包 -->
-		<dependency>
-			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>jackson-core</artifactId>
-			<version>2.1.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>jackson-databind</artifactId>
-			<version>2.1.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>jackson-annotations</artifactId>
-			<version>2.1.0</version>
-		</dependency>
-		<dependency>
-		<groupId>com.fasterxml.jackson.module</groupId>
-		  <artifactId>jackson-module-jaxb-annotations</artifactId>
-		  <version>2.1.1</version>
-		 </dependency>
-		 <!-- 角色数据回显使用jar包  结束 -->
-		 <!-- 附件预览开始  -->
-		<!-- mvn deploy:deploy-file -Dfile=E:\work_lbj\yxd_project\src\maven-repository\jodconverter-core-1.0.jar -DgroupId=com.jodconverter-core -DartifactId=jodconverter-core -Dversion=1.0 -Dpackaging=jar -Durl=file:./src/maven-repository/ -DrepositoryId=maven-repository -DupdateReleaseInfo=true  -->
-		<dependency>
-		    <groupId>com.jodconverter-core</groupId>
-		    <artifactId>jodconverter-core</artifactId>
-		    <version>1.0</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.libreoffice/juh -->
-		<dependency>
-		    <groupId>org.libreoffice</groupId>
-		    <artifactId>juh</artifactId>
-		    <version>5.4.2</version>
-		</dependency>
-		<dependency>
-		    <groupId>org.libreoffice</groupId>
-		    <artifactId>jurt</artifactId>
-		    <version>5.4.2</version>
-		</dependency>
-		<dependency>
-		    <groupId>org.libreoffice</groupId>
-		    <artifactId>ridl</artifactId>
-		    <version>5.4.2</version>
-		</dependency>
-		<dependency>
-		    <groupId>org.libreoffice</groupId>
-		    <artifactId>unoil</artifactId>
-		    <version>5.4.2</version>
-		</dependency>
-		<!-- 附件预览结束  -->
 		
 		<!-- 引入tomcat的jar包防止jsp页面报错  开始-->
 		<dependency>
